@@ -1,0 +1,14 @@
+{
+  "name": "crud-live-app",
+  "version": "1.0.0",
+  "description": "Fullstack CRUD Application with React, NestJS, and PostgreSQL",
+  "scripts": {
+    "start": "./start.sh",
+    "db:start": "./scripts/start-db.sh",
+    "db:stop": "./scripts/stop-db.sh",
+    "backend:dev": "npm --prefix backend run start:dev",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  }
+}
