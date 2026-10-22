@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "NestJS CRUD Backend with PostgreSQL",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\"",
