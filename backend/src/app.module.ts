@@ -18,6 +18,7 @@ import { ProductsModule } from './products/products.module';
       database: process.env.DB_NAME || 'crud_db',
       entities: [Product],
       synchronize: true, // Automatically sync DB schema for easy dev
+      ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : false,
     }),
     ProductsModule,
   ],
